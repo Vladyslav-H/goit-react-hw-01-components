@@ -1,0 +1,4 @@
+tr:nth-child(2n) {
+background-color: #f3c9c9;
+box-shadow: 1px 6px 20px -17px rgba(0, 0, 0, 0.75) inset;
+}

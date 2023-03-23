@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 20px;
+  background-color: aliceblue;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.75);
+}
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+.statusOnline {
+  background-color: green;
+}
+.name {
+  font-size: 26px;
+  font-weight: 500;
+}
