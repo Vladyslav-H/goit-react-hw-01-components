@@ -16,14 +16,13 @@ const Statistics = ({ title, stats }) => {
     <StatisticsSection>
       {title && <StatisticsTitle> {title} </StatisticsTitle>}
       <StatisticsList>
-
         {stats.map(({ id, label, percentage }) => (
-          <StatisticsItem key={id}
-          style={{backgroundColor:`${GetRandomHexColor()}`}}>
-
+          <StatisticsItem
+            key={id}
+            style={{ backgroundColor: `${GetRandomHexColor()}` }}
+          >
             <StatisticsLabel>{label}</StatisticsLabel>
             <StatisticsPercentage>{percentage}%</StatisticsPercentage>
-
           </StatisticsItem>
         ))}
       </StatisticsList>

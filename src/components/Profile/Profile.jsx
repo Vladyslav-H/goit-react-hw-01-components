@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import css from 'components/Profile/Profile.module.css'
+import css from 'components/Profile/Profile.module.css';
 
 import Description from 'components/Description/Description';
 import StatsList from 'components/StatsList/StatsList';
